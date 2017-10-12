@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: "Prototype";
+  src: url("../fonts/prototype/Prototype.ttf") format('truetype');
+  font-weight: bold;
+}
+
+body {
+  background: black;
+  background: linear-gradient(to top, #1B1B1B, black);
+}
