@@ -9,6 +9,43 @@ export class AppComponent {
   title = 'app';
   year = (new Date()).getFullYear();
   videos = [
+
+    // February 2018
+    {
+      display_name: "Sex on Fire",
+      source: "https://www.youtube.com/embed/XjiYwGHQNKc"
+    },
+    {
+      display_name: "Take Me Out",
+      source: "https://www.youtube.com/embed/XLvQmsv5_jU"
+    },
+    {
+      display_name: "Paralyzer",
+      source: "https://www.youtube.com/embed/PeTbTprtdMk"
+    },
+    // {
+    //   display_name: "Out of the Black",
+    //   source: "https://www.youtube.com/embed/JqHdu3AksHo"
+    // },
+    {
+      display_name: "Kryptonite",
+      source: "https://www.youtube.com/embed/pkI_XGYKK68"
+    },
+    {
+      display_name: "Little Black Submarines",
+      source: "https://www.youtube.com/embed/ZSu3Aea3194"
+    },
+    // {
+    //   display_name: "Breed",
+    //   source: "https://www.youtube.com/embed/xdm5G31i_PI"
+    // },
+    // {
+    //   display_name: "White Wedding",
+    //   source: "https://www.youtube.com/embed/9nZyFLs7MTo"
+    // },
+
+
+    // September 2017
     {
       display_name: "She Sells Sanctuary",
       source: "https://www.youtube.com/embed/KrrygLU3deg"
@@ -43,3 +80,6 @@ export class AppComponent {
     },
   ];
 }
+
+
+
