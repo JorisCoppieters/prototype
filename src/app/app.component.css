@@ -57,123 +57,159 @@ p {
   padding-left: 20px;
 }
 
-.fa {
+.footer_social fa-icon {
   padding: 10px;
   margin: 10px;
   font-size: 15px;
-  width: 15px;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
+  width: 18px;
+  display: inline-block;
 }
 
-.fa-envelope {
+.footer_social fa-icon.envelope {
   background: white;
   color: black;
 }
 
-.fa-facebook {
+.footer_social fa-icon.facebook {
   background: #3B5998;
   color: white;
 }
 
-.fa-twitter {
+.footer_social fa-icon.twitter {
   background: #55ACEE;
   color: white;
 }
 
-.fa-google {
+.footer_social fa-icon.google {
   background: #dd4b39;
   color: white;
 }
 
-.fa-linkedin {
+.footer_social fa-icon.linkedin {
   background: #007bb5;
   color: white;
 }
 
-.fa-youtube {
+.footer_social fa-icon.youtube {
   background: #bb0000;
   color: white;
 }
 
-.fa-instagram {
+.footer_social fa-icon.instagram {
   background: #125688;
   color: white;
 }
 
-.fa-pinterest {
+.footer_social fa-icon.pinterest {
   background: #cb2027;
   color: white;
 }
 
-.fa-snapchat-ghost {
+.footer_social fa-icon.snapchat-ghost {
   background: #fffc00;
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-.fa-skype {
+.footer_social fa-icon.skype {
   background: #00aff0;
   color: white;
 }
 
-.fa-android {
+.footer_social fa-icon.android {
   background: #a4c639;
   color: white;
 }
 
-.fa-dribbble {
+.footer_social fa-icon.dribbble {
   background: #ea4c89;
   color: white;
 }
 
-.fa-vimeo {
+.footer_social fa-icon.vimeo {
   background: #45bbff;
   color: white;
 }
 
-.fa-tumblr {
+.footer_social fa-icon.tumblr {
   background: #2c4762;
   color: white;
 }
 
-.fa-vine {
+.footer_social fa-icon.vine {
   background: #00b489;
   color: white;
 }
 
-.fa-foursquare {
+.footer_social fa-icon.foursquare {
   background: #45bbff;
   color: white;
 }
 
-.fa-stumbleupon {
+.footer_social fa-icon.stumbleupon {
   background: #eb4924;
   color: white;
 }
 
-.fa-flickr {
+.footer_social fa-icon.flickr {
   background: #f40083;
   color: white;
 }
 
-.fa-yahoo {
+.footer_social fa-icon.yahoo {
   background: #430297;
   color: white;
 }
 
-.fa-soundcloud {
+.footer_social fa-icon.soundcloud {
   background: #ff5500;
   color: white;
 }
 
-.fa-reddit {
+.footer_social fa-icon.reddit {
   background: #ff5700;
   color: white;
 }
 
-.fa-rss {
+.footer_social fa-icon.rss {
   background: #ff6600;
   color: white;
+}
+
+.footer_tshirt {
+  display: inline-block;
+  padding-left: 20px;
+  color: white;
+}
+
+.footer_tshirt fa-icon {
+  padding: 10px;
+  margin: 10px;
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  width: 18px;
+  display: inline-block;
+}
+
+.footer_tshirt a p {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.footer_tshirt a:hover p {
+  color: white;
+  text-decoration: none;
+}
+
+.footer_tshirt fa-icon.tshirt {
+  background: #ffc800;
+  color: black;
 }

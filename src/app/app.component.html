@@ -5,7 +5,7 @@
     <img
         alt=""
         class="intro_logo_img"
-        src="../assets/logo3i.png">
+        src="../assets/logo_white.png">
     <p
         class="intro_message">Check out some our performances below</p>
 </div>
@@ -21,10 +21,10 @@
             <p
                 class="section_content_video_title">{{video.display_name}}</p>
             <iframe
+                [src]="video.source | safe"
                 allowfullscreen
                 class="section_content_video_src"
-                frameborder="0"
-                [src]="video.source | safe"></iframe>
+                frameborder="0"></iframe>
         </div>
     </div>
 </div>
@@ -35,13 +35,40 @@
     <div
         class="footer_social">
         <a
-            class="fa fa-facebook"
-            href="https://www.facebook.com/prototypebandnz"></a>
+        target="_blank"
+            href="https://www.facebook.com/prototypebandnz">
+            <fa-icon
+                [icon]="faFacebook"
+                class="facebook">
+            </fa-icon>
+        </a>
         <a
-            class="fa fa-youtube"
-            href="https://www.youtube.com/channel/UCw_uaZtXZBD76dvaEQ3nMtg"></a>
+        target="_blank"
+            href="https://www.youtube.com/channel/UCw_uaZtXZBD76dvaEQ3nMtg">
+            <fa-icon
+                [icon]="faYoutube"
+                class="youtube">
+            </fa-icon>
+        </a>
         <a
-            class="fa fa-envelope"
-            href="mailto:prototype.band.nz@gmail.com"></a>
+        target="_blank"
+        href="mailto:prototype.band.nz@gmail.com">
+            <fa-icon
+                [icon]="faEnvelope"
+                class="envelope">
+            </fa-icon>
+        </a>
+    </div>
+    <div
+        class="footer_tshirt">
+        <a
+            target="_blank"
+            href="https://prototypeband.printmighty.co.nz/">
+            <p>Show your support and get a band t-shirt!</p>
+            <fa-icon
+                [icon]="faTshirt"
+                class="tshirt">
+            </fa-icon>
+        </a>
     </div>
 </div>

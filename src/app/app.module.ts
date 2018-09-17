@@ -1,9 +1,8 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-import { AppComponent } from './app.component';
+import { NgModule, Pipe, PipeTransform } from '@angular/core';
+import { BrowserModule, DomSanitizer } from '@angular/platform-browser';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
-import { Pipe, PipeTransform } from '@angular/core';
-import { DomSanitizer} from '@angular/platform-browser';
+import { AppComponent } from './app.component';
 
 @Pipe({ name: 'safe' })
 export class SafePipe implements PipeTransform {
@@ -19,7 +18,8 @@ export class SafePipe implements PipeTransform {
     SafePipe
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

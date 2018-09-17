@@ -6,6 +6,12 @@ DIST=dist-`date +"%Y-%m-%d-%H%M%S"`.zip
 DEPLOY=deploy-`date +"%Y-%m-%d-%H%M%S"`.sh
 
 echo "#"
+echo "# Formatting files"
+echo "#"
+
+npm run format
+
+echo "#"
 echo "# Zipping distribution & creating scripts"
 echo "#"
 
