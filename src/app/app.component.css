@@ -45,7 +45,7 @@ p {
 .footer {
   text-align: center;
   margin: 100px auto 0 auto;
-  height: 100px;
+  min-height: 100px;
 }
 
 .footer_copy {
