@@ -10,6 +10,12 @@
           "configurations": {
             "production": {
               "aot": true,
+              "budgets": [
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "6kb"
+                }
+              ],
               "buildOptimizer": true,
               "extractCss": true,
               "extractLicenses": true,
@@ -27,6 +33,7 @@
             }
           },
           "options": {
+            "aot": true,
             "assets": [
               "src/assets",
               "src/favicon.ico"
@@ -122,7 +129,7 @@
   "schematics": {
     "@schematics/angular:component": {
       "prefix": "app",
-      "styleext": "css"
+      "style": "css"
     },
     "@schematics/angular:directive": {
       "prefix": "app"
