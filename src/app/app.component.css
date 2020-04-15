@@ -1,215 +1,215 @@
 p {
-  font-family: Prototype;
-  color: white;
+    font-family: Prototype;
+    color: white;
 }
 
 .intro {
-  text-align: center;
+    text-align: center;
 }
 
 .intro_title {
-  margin-top: 0px;
-  margin-bottom: 15px;
-  font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-size: 40px;
 }
 
 .intro_logo_img {
-  width: 70%;
-  max-width: 800px;
-  margin-bottom: 30px;
+    width: 70%;
+    max-width: 800px;
+    margin-bottom: 30px;
 }
 
 .section {
-  width: 90%;
-  margin: 30px auto 0  auto;
-  padding: 0px 10px;
+    width: 90%;
+    margin: 30px auto 0 auto;
+    padding: 0px 10px;
 }
 
 .section_header {
-  font-size: 18pt;
-  margin: 0;
-  margin-bottom: 10px;
+    font-size: 18pt;
+    margin: 0;
+    margin-bottom: 10px;
 }
 
 .section_content {
-  border-top: 3px dotted white;
-  margin-left: 3px;
-  padding-top: 10px;
+    border-top: 3px dotted white;
+    margin-left: 3px;
+    padding-top: 10px;
 }
 
 .section_content_video {
-  display: inline-block;
-  padding: 10px;
+    display: inline-block;
+    padding: 10px;
 }
 
 .footer {
-  text-align: center;
-  margin: 100px auto 0 auto;
-  min-height: 100px;
+    text-align: center;
+    margin: 100px auto 0 auto;
+    min-height: 100px;
 }
 
 .footer_copy {
-  display: inline-block;
+    display: inline-block;
 }
 
 .footer_social {
-  display: inline-block;
-  padding-left: 20px;
+    display: inline-block;
+    padding-left: 20px;
 }
 
 .footer_social fa-icon {
-  padding: 10px;
-  margin: 10px;
-  font-size: 15px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
-  width: 18px;
-  display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    width: 18px;
+    display: inline-block;
 }
 
 .footer_social fa-icon.envelope {
-  background: white;
-  color: black;
+    background: white;
+    color: black;
 }
 
 .footer_social fa-icon.facebook {
-  background: #3B5998;
-  color: white;
+    background: #3B5998;
+    color: white;
 }
 
 .footer_social fa-icon.twitter {
-  background: #55ACEE;
-  color: white;
+    background: #55ACEE;
+    color: white;
 }
 
 .footer_social fa-icon.google {
-  background: #dd4b39;
-  color: white;
+    background: #dd4b39;
+    color: white;
 }
 
 .footer_social fa-icon.linkedin {
-  background: #007bb5;
-  color: white;
+    background: #007bb5;
+    color: white;
 }
 
 .footer_social fa-icon.youtube {
-  background: #bb0000;
-  color: white;
+    background: #bb0000;
+    color: white;
 }
 
 .footer_social fa-icon.instagram {
-  background: #125688;
-  color: white;
+    background: #125688;
+    color: white;
 }
 
 .footer_social fa-icon.pinterest {
-  background: #cb2027;
-  color: white;
+    background: #cb2027;
+    color: white;
 }
 
 .footer_social fa-icon.snapchat-ghost {
-  background: #fffc00;
-  color: white;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .footer_social fa-icon.skype {
-  background: #00aff0;
-  color: white;
+    background: #00aff0;
+    color: white;
 }
 
 .footer_social fa-icon.android {
-  background: #a4c639;
-  color: white;
+    background: #a4c639;
+    color: white;
 }
 
 .footer_social fa-icon.dribbble {
-  background: #ea4c89;
-  color: white;
+    background: #ea4c89;
+    color: white;
 }
 
 .footer_social fa-icon.vimeo {
-  background: #45bbff;
-  color: white;
+    background: #45bbff;
+    color: white;
 }
 
 .footer_social fa-icon.tumblr {
-  background: #2c4762;
-  color: white;
+    background: #2c4762;
+    color: white;
 }
 
 .footer_social fa-icon.vine {
-  background: #00b489;
-  color: white;
+    background: #00b489;
+    color: white;
 }
 
 .footer_social fa-icon.foursquare {
-  background: #45bbff;
-  color: white;
+    background: #45bbff;
+    color: white;
 }
 
 .footer_social fa-icon.stumbleupon {
-  background: #eb4924;
-  color: white;
+    background: #eb4924;
+    color: white;
 }
 
 .footer_social fa-icon.flickr {
-  background: #f40083;
-  color: white;
+    background: #f40083;
+    color: white;
 }
 
 .footer_social fa-icon.yahoo {
-  background: #430297;
-  color: white;
+    background: #430297;
+    color: white;
 }
 
 .footer_social fa-icon.soundcloud {
-  background: #ff5500;
-  color: white;
+    background: #ff5500;
+    color: white;
 }
 
 .footer_social fa-icon.reddit {
-  background: #ff5700;
-  color: white;
+    background: #ff5700;
+    color: white;
 }
 
 .footer_social fa-icon.rss {
-  background: #ff6600;
-  color: white;
+    background: #ff6600;
+    color: white;
 }
 
 .footer_tshirt {
-  display: inline-block;
-  padding-left: 20px;
-  color: white;
+    display: inline-block;
+    padding-left: 20px;
+    color: white;
 }
 
 .footer_tshirt fa-icon {
-  padding: 10px;
-  margin: 10px;
-  font-size: 15px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
-  width: 18px;
-  display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    width: 18px;
+    display: inline-block;
 }
 
 .footer_tshirt a p {
-  color: white;
-  text-decoration: none;
-  display: inline-block;
-  margin-left: 10px;
-  margin-right: 20px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 20px;
 }
 
 .footer_tshirt a:hover p {
-  color: white;
-  text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 
 .footer_tshirt fa-icon.tshirt {
-  background: #ffc800;
-  color: black;
+    background: #ffc800;
+    color: black;
 }
