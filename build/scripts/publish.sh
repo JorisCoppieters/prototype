@@ -3,7 +3,7 @@
 set -e # Bail on first error
 
 CURRENT_DATE_STAMP=`date +"%Y-%m-%d-%H%M%S"`
-HOST="karaokesonglookup.com"
+HOST="prototypeband.co.nz"
 SERVER_ADMIN="joris.coppieters@gmail.com"
 DIST_ZIP="dist-$HOST-$CURRENT_DATE_STAMP.zip"
 REMOTE_SCRIPT="deploy-$HOST-$CURRENT_DATE_STAMP.sh"
