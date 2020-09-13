@@ -65,11 +65,11 @@ echo "# Executing remote script"
 echo "#"
 echo ""
 
-scp $DIST_ZIP $REMOTE_SCRIPT jorisweb.com:downloads/
-ssh jorisweb.com chmod +x downloads/$REMOTE_SCRIPT
+scp $DIST_ZIP $REMOTE_SCRIPT sites:downloads/
+ssh sites chmod +x downloads/$REMOTE_SCRIPT
 
 cat $REMOTE_SCRIPT
-ssh jorisweb.com downloads/$REMOTE_SCRIPT
+ssh sites downloads/$REMOTE_SCRIPT
 
 echo ""
 echo "#"

@@ -47,7 +47,7 @@
   "scripts": {
     "e2e": "ng e2e",
     "format": "node ./build/format/format.js",
-    "publish": "cross-env ./build/scripts/publish.sh",
+    "publish": "bash ./build/scripts/publish.sh",
     "lint": "ng lint",
     "serve": "ng serve",
     "test": "ng test"
