@@ -50,7 +50,7 @@
     "publish": "bash ./build/scripts/publish.sh",
     "lint": "ng lint",
     "serve": "ng serve",
-    "test": "ng test"
+    "test": ""
   },
   "version": "1.0.0"
 }
